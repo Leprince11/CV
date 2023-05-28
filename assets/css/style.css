@@ -7,9 +7,10 @@ font-family: 'Raleway', sans-serif; */
   margin: 0;
   padding: 0;
   font-family: "Raleway", sans-serif;
+  font-size: 12px;
 }
 body {
-  height: 1150px;
+  height: auto;
   width: 800px;
   background-image: radial-gradient(#c7c7c7 25%, #c7c7c7 75%);
   box-shadow: 5px 7px 5px #000;
@@ -47,6 +48,7 @@ h1 {
 .col-sec-4 {
   width: 35%;
   float: left;
+  height: 1000px;
   background-color: #782221;
 }
 .col-sec-8 {
@@ -56,25 +58,58 @@ h1 {
 }
 
 article {
-  padding: 0 20px 0 0;
+  padding: 20px 20px 0 0;
+  color: white;
 }
 .head {
   height: 20px;
   padding: 5px;
-  background-color: #dbc2a4;
   color: #2c1d27;
+  background-color: #dbc2a4;
+  font-family: "Lato", sans-serif;
+}
+h5 {
+  font-family: "Lato", sans-serif;
+}
+.width {
+  width: 500px;
+}
+
+.heads {
+  padding: 0 0 0 20px;
+  display: flex;
+}
+hr {
+  width: 7px;
+  border: 0;
+  background-color: #782221;
 }
 article ul {
   padding: 30px;
 }
 
-.about {
-  padding: 20px 20px 20px 20px;
+div {
+  padding: 20px;
 }
-/* footer {
-  padding: 10px;
+
+.about {
+  padding: 20px 20px 0 12px;
+}
+.poste {
+  color: #2c1d27;
+  padding-bottom: 0;
+}
+.poste p {
+  line-height: 30px;
+}
+.formation {
+  color: #2c1d27;
+}
+.skills {
+  color: #2c1d27;
+}
+footer {
   background-color: #782221;
-  text-align: center;
   color: white;
   font-size: 12px;
-} */
+}
