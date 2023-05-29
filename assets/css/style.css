@@ -22,6 +22,10 @@ header {
   text-align: center;
   padding-top: 20px;
 }
+
+.pointeur {
+  cursor: zoom-in;
+}
 address {
   padding: 20px;
   background-color: #2c1d27;
@@ -33,11 +37,15 @@ address a {
   text-decoration: none;
   color: white;
 }
+address a:hover {
+  text-decoration: underline;
+}
 .profil {
   height: 150;
   width: 150;
   background-color: white;
   border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 1);
 }
 h1 {
   color: white;
@@ -50,17 +58,23 @@ h1 {
 }
 
 main {
-  display: grid;
-  grid-template-columns: repeat(3, 300px);
+  display: flex;
 }
 .section2 {
-  grid-column: 2 / span 3;
   background-color: white;
   padding: 0 0 0 20px;
+  flex-basis: 70%;
 }
 
 .section {
+  flex-basis: 30%;
   background-color: #782221;
+}
+
+.section {
+  flex-basis: 30%;
+  background-color: #782221;
+  padding: 0;
 }
 
 article {
@@ -136,4 +150,7 @@ footer {
   background-color: #782221;
   text-align: center;
   padding: 20px;
+}
+.footer img:hover {
+  opacity: 0.5;
 }
